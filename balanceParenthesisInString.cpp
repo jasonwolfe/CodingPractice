@@ -1,6 +1,11 @@
 #include <iostream>
 #include <stack>
 
+/*
+    Question: Given an unbalanced string in the form of "(A((B)", print the balanced string.
+    
+*/
+
 using namespace std;
 
 int main(int argc, char *argv[]){
