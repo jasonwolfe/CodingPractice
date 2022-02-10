@@ -12,7 +12,7 @@ int main(int argc, char *argv[]){
     string unbalancedString = "(a((b)";
     stack<int> stack;
 
-    for(int i=0; i<=unbalancedString.length(); i++){
+    for(decltype(unbalancedString.size()) i=0; i<=unbalancedString.size(); i++){
         if(unbalancedString[i] == '(') {
             stack.push(i);
         } else if(unbalancedString[i] == ')') {
