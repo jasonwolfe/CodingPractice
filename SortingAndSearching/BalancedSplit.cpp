@@ -98,11 +98,7 @@ bool balancedSplitExists(vector<int>& arr){
 
 
 
-
-
-
-
-//CODE BELOW LINE 97 WAS PROVIDED WITH QUESTION
+//CODE BELOW THESE COMMENTS WAS PROVIDED WITH QUESTION
 //I AM NOT THE ORIGINAL AUTHOR OF CODE BELOW THIS LINE
 
 // These are the tests we use to determine if the solution is correct.
