@@ -17,10 +17,9 @@ int recursiveBinarySearch(vector<int> sortedArray, int low, int high, int x){
     }else{
         return mid;
     }
-
 }
 
 int main(int argc, char* argv[]){
     vector<int> array = {1,2,3,4,5,6,7,8,9};
-    return 0;
+    return recursiveBinarySearch(array, 0, array.size()-1, 3);
 }
