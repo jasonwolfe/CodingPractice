@@ -1,5 +1,8 @@
+#include <iostream>
 #include <string>
 #include <math.h>
+
+using namespace std;
 
 //Given a Binary Number B, find its decimal equivalent.
 //https://practice.geeksforgeeks.org/problems/binary-number-to-decimal-number3525/1
@@ -11,18 +14,18 @@ class Solution
 		{
             int value = 0;
             int power = 0;
-            int x = str.size();
-    	    for(int i=x-1; i>=0; i--){
+    	    for(int i=str.size()-1; i>=0; i--){
     	       if(str[i]=='1'){
     	           value += pow(2,power);
     	       }
-    	       power = power+1;
+    	       power++;
     	    }
     	    return value;
     	}
 };
 
-long long int main(int argc, int*argv[]){
+int main(int argc, char* argv[]){
     Solution solution = Solution();
-    return solution.binary_to_decimal("10001000");
+	cout << solution.binary_to_decimal("10001000");
+    return 0;
 }
