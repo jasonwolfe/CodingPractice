@@ -22,5 +22,5 @@ class Solution
 
 long long int main(int argc, int*argv[]){
     Solution solution = Solution();
-    return solution.reverse_digit(76482736487235487518758153281538);
+    return solution.reverse_digit(7648273);
 }
