@@ -4,12 +4,12 @@
  */
 var reverse = function(x) {
     let negative = false;
-    if(x<0){
+    if(x < 0){
         negative = true;
-        x*=-1;
+        x *= -1;
     }
     let value = 0;
-    while(x>0){
+    while(x > 0){
         let temp = x%10;
         value *= 10;
         value += temp;
@@ -19,7 +19,7 @@ var reverse = function(x) {
         }
     }
     if(negative){
-        value*=-1;
+        value *= -1;
     }
     return value;
 };
